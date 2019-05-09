@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "name": "David",
+            "role": [
+                "SysAdmin",
+                "Developer",
+                "Designer"
+            ],
+            "birthdate": "09-03-1969",
+            "dependents": [
+                "Joseph",
+                "Bethany",
+                "Zachary",
+                "Noah",
+                "Thomas",
+                "Anna"
+            ]
+        },
+        {
+            "name": "Kyle",
+            "role": "Senior Developer",
+            "birthdate": "12-25-1975",
+            "dependents": [
+                "Maggie",
+                "Jesse"
+            ]
+        },
+        {
+            "name": "Keith",
+            "role": [
+                "SysAdmin",
+                "TechLead"
+            ],
+            "birthdate": "02-24-1973",
+            "dependents": ""
+        }
+    ]
+}
