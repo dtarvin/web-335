@@ -1,0 +1,55 @@
+{
+    "Customer": {
+        "_id": 1,
+        "first_name": "David",
+        "last_name": "Tarvin",
+        "date_of_birth": "1982-02-10",
+        "user_name": "rattrap5580",
+        "Invoice": [
+            {
+                "_id": 1000,
+                "date_created": "2019-04-25",
+                "date_shipped": "2019-04-26",
+                "line_item_fields": [
+                    {
+                        "_id": 1001,
+                        "name": "Jenga",
+                        "price": 10.00,
+                        "quantity": 1
+                    },
+                    {
+                        "_id": 1002,
+                        "name": "Monopoly",
+                        "price": 15.00,
+                        "quantity": 2
+                    }
+                ],
+                "subtotal": 40.00,
+                "tax": 2.80,
+                "total": 42.80
+            },
+            {
+                "_id": 2000,
+                "date_created": "2019-05-07",
+                "date_shipped": "2019-05-08",
+                "line_item_fields": [
+                    {
+                        "_id": 2001,
+                        "name": "iPad",
+                        "price": 249.00,
+                        "quantity": 1
+                    },
+                    {
+                        "_id": 2002,
+                        "name": "Apple Pencil",
+                        "price": 94.99,
+                        "quantity": 1
+                    }
+                ],
+                "subtotal": 343.99,
+                "tax": 24.08,
+                "total": 368.07
+            }
+        ]
+    }
+}
