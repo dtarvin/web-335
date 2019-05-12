@@ -1,0 +1,54 @@
+{
+    "Class": {
+        "_id": 1,
+        "name": "Physics",
+        "Enroll": [
+            {
+                "_id": 100,
+                "Student": {
+                    "_id": 1000,
+                    "first_name": "Jim",
+                    "last_name": "Tyler",
+                    "mi": "W"
+                },
+                "grade": 89
+            },
+            {
+                "_id": 1001,
+                "Student": {
+                    "_id": 1001,
+                    "first_name": "Steve",
+                    "last_name": "Rathbone",
+                    "mi": "J"
+                },
+                "grade": 96
+            }
+        ]
+    }
+}
+{
+    "Student": {
+        "_id": 1000,
+        "first_name": "Jim",
+        "last_name": "Tyler",
+        "mi": "W",
+        "Enroll": [
+            {
+                "_id": 100,
+                "Class": {
+                    "_id": 1,
+                    "name": "Physics"
+                },
+                "grade": 89
+            },
+            {
+                "_id": 200,
+                "Class": {
+                    "_id": 2,
+                    "name": "Economics"
+                },
+                "grade": 74   
+            }
+        ]
+    }
+}
