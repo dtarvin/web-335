@@ -1,0 +1,63 @@
+{
+    "user": [
+        {
+            "user_id": 161120,
+            "name": "John Smith",
+            "link_user_role": {
+                "user_role_id": "161120a",
+                "role": {
+                    "role_id": "c6",
+                    "role_title": "teleservices",
+                    "link_role_permission": {
+                        "role_permission_id": "c6-a1",
+                        "permission": {
+                            "read": true,
+                            "create": false,
+                            "update": true,
+                            "delete": false
+                        }
+                    }
+                }
+
+            }
+        },
+        {
+            "user_id": 249630,
+            "name": "Robert Downey",
+            "link_user_role": [
+                {
+                    "user_role_id": "249630a",
+                    "role": {
+                        "role_id": "d8",
+                        "role_title": "administrator",
+                        "link_role_permission": {
+                            "role_permission_id": "d8-a3",
+                            "permission": {
+                                "read": true,
+                                "create":true,
+                                "update": true,
+                                "delete": true
+                            }
+                        }
+                    }
+                },
+                {
+                    "user_role_id": "249630b",
+                    "role": {
+                        "role_id": "e7",
+                        "role_title": "developer",
+                        "link_role_permission": {
+                            "role_permission_id": "e7-a3",
+                            "permission": {
+                                "read": true,
+                                "create": true,
+                                "update": true,
+                                "delete": true
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
