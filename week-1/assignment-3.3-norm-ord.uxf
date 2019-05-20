@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>130</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Publisher
+--
+publisher_name
+publisher_code
+publisher_address</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>130</y>
+      <w>210</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>Book
+--
+book_isbn
+book_name
+book_price
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>130</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Author
+--
+author_first_name
+author_last_name
+author_phone
+author_email</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>260</x>
+      <y>150</y>
+      <w>180</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+publishes &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;160.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>150</y>
+      <w>200</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1.1
+m2=1.*
+has &gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>300</y>
+      <w>300</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>PUBLISHER DOCUMENT
+--
+{
+	"publisher_name": "Joel Murach",
+	"publisher_code": "07",
+	"publisher_address": "4340 N. Knoll Ave.,
+	                      Fresno, CA 93722"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>300</y>
+      <w>310</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>BOOK DOCUMENT
+--
+{
+	"book_isbn": "978-1-943872-07-7",
+	"book_name": "Murach's Java Programming,
+	              5th Edition",
+	"book_price": 59.50
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>350</y>
+      <w>190</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=1.*</panel_attributes>
+    <additional_attributes>10.0;10.0;170.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>390</y>
+      <w>180</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+m1=1.*</panel_attributes>
+    <additional_attributes>10.0;130.0;160.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>500</y>
+      <w>320</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>AUTHOR DOCUMENT
+--
+{
+	"author_first_name": "Joel",
+	"author_last_name": "Murach",
+	"author_phone": "800-221-5528",
+	"author_email": "murachbooks@murach.com"
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
