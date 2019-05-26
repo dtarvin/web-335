@@ -71,7 +71,7 @@ publishes &gt;</panel_attributes>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
-m1=1.1
+m1=1.*
 m2=1.*
 has &gt;</panel_attributes>
     <additional_attributes>10.0;20.0;180.0;20.0</additional_attributes>
@@ -153,5 +153,17 @@ m1=1.*</panel_attributes>
 	"author_email": "murachbooks@murach.com"
 }</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>360</x>
+      <y>420</y>
+      <w>180</w>
+      <h>150</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+m2=1.*</panel_attributes>
+    <additional_attributes>10.0;130.0;160.0;10.0</additional_attributes>
   </element>
 </diagram>
